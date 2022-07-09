@@ -36,7 +36,19 @@ class MyApp extends StatelessWidget {
               child: Row(
                 children: [
                   Expanded(
-                    child: WindowTitleBarBox(),
+                    child: WindowTitleBarBox(
+                      child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(8.0, 0, 0, 0),
+                            child: Text(
+                              title,
+                              style: GoogleFonts.notoSans(
+                                fontSize: 14,
+                              ),
+                            ),
+                          )),
+                    ),
                   ),
                   MinimizeWindowButton(),
                   MaximizeWindowButton(),
