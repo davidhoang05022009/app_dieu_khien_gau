@@ -1,2 +1,2 @@
 # app_dieu_khien_gau
- A joke program to control your girlfriend xD
+ This is just a joke program inspired from [this video](https://www.youtube.com/watch?v=G-lHnlc5UIs&t=9m50s) (at 9:50), re-writed with Flutter (the original app is writed with ElectronJS)
